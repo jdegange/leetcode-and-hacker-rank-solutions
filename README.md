@@ -1,2 +1,2 @@
 # leetcode-and-hacker-rank-solutions
-Solutions to 
+Solutions to leetcode and hacker rank problems
