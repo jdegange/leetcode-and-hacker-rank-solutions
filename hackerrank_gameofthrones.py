@@ -1,5 +1,5 @@
 #!/bin/python3
-
+https://www.geeksforgeeks.org/check-characters-given-string-can-rearranged-form-palindrome/
 import math
 import os
 import random
