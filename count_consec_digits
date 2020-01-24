@@ -1,0 +1,28 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+from collections import Counter
+
+
+
+if __name__ == '__main__':
+    n = int(input())
+    count= 0
+    maxcount = 0
+    for i in str(bin(n)):
+        if i == '1':
+            count +=1
+        elif count > maxcount:
+            maxcount = count;
+            count = 0
+        else:
+            count = 0
+    if count > maxcount: maxcount = count        
+    print(maxcount)
+
+
+
